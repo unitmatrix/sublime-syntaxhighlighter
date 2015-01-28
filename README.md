@@ -3,4 +3,4 @@ This is the default syntax highlighting theme from [SyntaxHighlighter package by
 
 ## Contributing
 
-All contributions are welcome. The current theme is almost identical to the original package with minimal changes and adoptions to Sumblime Text highlighting rules.
+All contributions are welcome. The current theme is almost identical to the original package with minimal changes and adaptations to Sumblime Text highlighting rules.
