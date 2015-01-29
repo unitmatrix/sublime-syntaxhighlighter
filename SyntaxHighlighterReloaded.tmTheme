@@ -809,6 +809,19 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Library class</string>
+			<key>scope</key>
+			<string>support.class</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#0066CC</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Function Meta Call Arguments</string>
 			<key>scope</key>
 			<string>meta.function-call.arguments</string>
