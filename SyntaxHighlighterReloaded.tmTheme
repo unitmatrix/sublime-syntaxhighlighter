@@ -633,7 +633,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>css font</string>
+			<string>css font name</string>
 			<key>scope</key>
 			<string>support.constant.font-name</string>
 			<key>settings</key>
@@ -641,12 +641,12 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#000000</string>
+				<string>#0066CC</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>css keyword</string>
+			<string>css unit keyword</string>
 			<key>scope</key>
 			<string>keyword.other.unit</string>
 			<key>settings</key>
