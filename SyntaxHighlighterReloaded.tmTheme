@@ -654,7 +654,7 @@
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#006699</string>
+				<string>#000000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -681,19 +681,6 @@
 				<string></string>
 				<key>foreground</key>
 				<string>#0066CC</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>css constant property value</string>
-			<key>scope</key>
-			<string>support.constant.property-value</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>bold</string>
-				<key>foreground</key>
-				<string>#000000</string>
 			</dict>
 		</dict>
 		<dict>
