@@ -198,7 +198,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#000000</string>
+				<string>#0066CC</string>
 			</dict>
 		</dict>
 		<dict>
@@ -509,19 +509,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>html attribute punctation</string>
-			<key>scope</key>
-			<string>entity.other.attribute-name</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#AA7700</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Embedded (PHP)</string>
 			<key>scope</key>
 			<string>punctuation.section.embedded.begin.php,punctuation.section.embedded.end.php</string>
@@ -680,7 +667,20 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#000000</string>
+				<string>#0066CC</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>pseudo element</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name.pseudo-element</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#0066CC</string>
 			</dict>
 		</dict>
 		<dict>
