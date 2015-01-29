@@ -1,0 +1,35 @@
+--- a/SyntaxHighlighterReloaded.tmTheme
++++ b/SyntaxHighlighterReloaded.tmTheme
+@@ -691,9 +691,9 @@
+ 			<key>settings</key>
+ 			<dict>
+ 				<key>fontStyle</key>
+-				<string>bold</string>
++				<string></string>
+ 				<key>foreground</key>
+-				<string>#445588</string>
++				<string>#AA7700</string>
+ 			</dict>
+ 		</dict>
+ 		<dict>
+@@ -704,9 +704,9 @@
+ 			<key>settings</key>
+ 			<dict>
+ 				<key>fontStyle</key>
+-				<string>bold</string>
++				<string></string>
+ 				<key>foreground</key>
+-				<string>#990000</string>
++				<string>#AA7700</string>
+ 			</dict>
+ 		</dict>
+ 		<dict>
+@@ -789,7 +789,7 @@
+ 				<key>fontStyle</key>
+ 				<string></string>
+ 				<key>foreground</key>
+-				<string>#FF1493</string> 
++				<string>#FF1493</string>
+ 			</dict>
+ 		</dict>
+ 		<dict>
