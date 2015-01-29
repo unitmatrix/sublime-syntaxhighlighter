@@ -1,3 +1,4 @@
+/* hide what we do not need */
 html.plat_osx .pc { display: none; }
 html.plat_osx .win { display: none; }
 html.plat_osx .linux { display: none; }
@@ -8,6 +9,7 @@ html.plat_win .linux { display: none; }
 html.arch_64 .show_32 { display: none; }
 html.arch_32 .show_64 { display: none; }
 
+/* global body style */
 body
 {
 	background-color: #f6f6f6;
@@ -17,6 +19,8 @@ body
 	font-family: 'Open Sans', sans-serif;
 	font-size: 11pt;
 }
+
+/* main heading style */
 h1
 {
 	font-family: 'Open Sans', sans-serif;
@@ -41,6 +45,8 @@ h3
 	font-size: 1.4em;
 	color: #555;
 }
+
+/* basic link styles */
 a { color: black; }
 a:visited { color: gray; }
 
