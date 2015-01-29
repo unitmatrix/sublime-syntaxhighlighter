@@ -741,6 +741,21 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>diff range</string>
+			<key>scope</key>
+			<string>meta.diff.range</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#F8F8F8</string>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#A8A8A8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>diff inserted</string>
 			<key>scope</key>
 			<string>markup.inserted.diff</string>
