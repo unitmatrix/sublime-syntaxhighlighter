@@ -609,13 +609,26 @@
 			<key>name</key>
 			<string>css property value</string>
 			<key>scope</key>
-			<string>meta.property-value, constant.other.color</string>
+			<string>meta.property-value</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#009999</string>
+				<string>#000000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>css color constant</string>
+			<key>scope</key>
+			<string>constant.other.color</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#0066CC</string>
 			</dict>
 		</dict>
 		<dict>
