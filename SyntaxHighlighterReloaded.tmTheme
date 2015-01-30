@@ -49,32 +49,32 @@
 				<string>#008200</string>
 			</dict>
 		</dict>
-        <dict>
-            <key>name</key>
-            <string>Docblock</string>
-            <key>scope</key>
-            <string>comment.block</string>
-            <key>settings</key>
-            <dict>
-                <key>fontStyle</key>
-                <string></string>
-                <key>foreground</key>
-                <string>#008200</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>Docblock tag</string>
-            <key>scope</key>
-            <string>keyword.other.phpdoc</string>
-            <key>settings</key>
-            <dict>
-                <key>fontStyle</key>
-                <string>bold</string>
-                <key>foreground</key>
-                <string>#008200</string>
-            </dict>
-        </dict>
+		<dict>
+			<key>name</key>
+			<string>Docblock</string>
+			<key>scope</key>
+			<string>comment.block</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#008200</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Docblock tag</string>
+			<key>scope</key>
+			<string>keyword.other.phpdoc</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#008200</string>
+			</dict>
+		</dict>
 		<dict>
 			<key>name</key>
 			<string>Preprocessor line</string>
@@ -101,19 +101,19 @@
 				<string>#008200</string>
 			</dict>
 		</dict>
-        <dict>
-            <key>name</key>
-            <string>Core function</string>
-            <key>scope</key>
-            <string>support.function</string>
-            <key>settings</key>
-            <dict>
-                <key>fontStyle</key>
-                <string></string>
-                <key>foreground</key>
-                <string>#0086B3</string>
-            </dict>
-        </dict>
+		<dict>
+			<key>name</key>
+			<string>Core function</string>
+			<key>scope</key>
+			<string>support.function</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#0086B3</string>
+			</dict>
+		</dict>
 		<dict>
 			<key>name</key>
 			<string>Keyword</string>
