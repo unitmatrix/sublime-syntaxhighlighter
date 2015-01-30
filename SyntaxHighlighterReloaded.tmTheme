@@ -25,19 +25,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Source</string>
-			<key>scope</key>
-			<string>source</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#FFFFFF</string>
-				<key>fontStyle</key>
-				<string></string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Comment</string>
 			<key>scope</key>
 			<string>comment</string>
