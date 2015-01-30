@@ -142,19 +142,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Keyword operator</string>
-			<key>scope</key>
-			<string>keyword.operator</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>bold</string>
-				<key>foreground</key>
-				<string>#000000</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>keyword like new</string>
 			<key>scope</key>
 			<string>keyword.other.special-method</string>
