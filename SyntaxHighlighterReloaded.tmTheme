@@ -118,6 +118,19 @@
 			<key>name</key>
 			<string>Keyword</string>
 			<key>scope</key>
+			<string>source.c storage, source.c++ storage</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#8000FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Keyword</string>
+			<key>scope</key>
 			<string>keyword, storage</string>
 			<key>settings</key>
 			<dict>
