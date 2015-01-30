@@ -75,6 +75,32 @@
                 <string>#008200</string>
             </dict>
         </dict>
+		<dict>
+			<key>name</key>
+			<string>Preprocessor line</string>
+			<key>scope</key>
+			<string>meta.preprocessor</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#008200</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Preprocessor directive</string>
+			<key>scope</key>
+			<string>meta.preprocessor keyword</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#008200</string>
+			</dict>
+		</dict>
         <dict>
             <key>name</key>
             <string>Core function</string>
