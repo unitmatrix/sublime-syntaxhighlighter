@@ -105,7 +105,7 @@
 			<key>name</key>
 			<string>Keyword</string>
 			<key>scope</key>
-			<string>source.c storage, source.c++ storage</string>
+			<string>source.c storage, source.c++ storage, source.cpp storage</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
