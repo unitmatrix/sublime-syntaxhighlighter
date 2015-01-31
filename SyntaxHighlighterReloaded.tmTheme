@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>name</key>
@@ -33,20 +33,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#008200</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Docblock</string>
-			<key>scope</key>
-			<string>comment.block</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#008200</string>
+				<string>#008000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -59,7 +46,7 @@
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#008200</string>
+				<string>#008000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -72,7 +59,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#008200</string>
+				<string>#008000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -85,90 +72,38 @@
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#008200</string>
+				<string>#008000</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Core function</string>
+			<string>String</string>
 			<key>scope</key>
-			<string>support.function</string>
+			<string>string</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#0086B3</string>
+				<string>#0000FF</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Keyword</string>
+			<string>String.regexp</string>
 			<key>scope</key>
-			<string>source.c storage, source.c++ storage, source.cpp storage</string>
+			<string>string.regexp</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
-				<string>#8000FF</string>
+				<string>#008000</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Keyword</string>
+			<string>Constant</string>
 			<key>scope</key>
-			<string>keyword, storage</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>bold</string>
-				<key>foreground</key>
-				<string>#006699</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>keyword like new</string>
-			<key>scope</key>
-			<string>keyword.other.special-method</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Function (definition)</string>
-			<key>scope</key>
-			<string>entity.name.function, keyword.other.name-of-parameter.objc, support.type.exception.python</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#000000</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Class (definition)</string>
-			<key>scope</key>
-			<string>entity.name</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#000000</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Number</string>
-			<key>scope</key>
-			<string>constant.numeric</string>
+			<string>constant, support.constant, variable.other.constant.ruby</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -181,7 +116,7 @@
 			<key>name</key>
 			<string>Variable</string>
 			<key>scope</key>
-			<string>variable.language, variable.other</string>
+			<string>variable, support.other.variable</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -192,46 +127,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Variable</string>
+			<string>Keyword</string>
 			<key>scope</key>
-			<string>variable.other.constant.ruby</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#0F8787</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>User-defined constant</string>
-			<key>scope</key>
-			<string>constant</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#0066CC</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Built-in constant</string>
-			<key>scope</key>
-			<string>constant.language,support.constant</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#0066CC</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Control keyword-functions: echo, eval(), isset(), array(), list(), empty(), unset(), etc.</string>
-			<key>scope</key>
-			<string>support.function.construct</string>
+			<string>keyword</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -242,9 +140,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Built-in functions: define(), etc.</string>
+			<string>Storage</string>
 			<key>scope</key>
-			<string>support.function.builtin_functions</string>
+			<string>storage</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -255,15 +153,28 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>String</string>
+			<string>Storage Type</string>
 			<key>scope</key>
-			<string>string</string>
+			<string>storage.type</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
+				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#0000FF</string>
+				<string>#8000FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Class (definition)</string>
+			<key>scope</key>
+			<string>entity.name.type.class</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#0066CC</string>
 			</dict>
 		</dict>
 		<dict>
@@ -276,77 +187,36 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#000000</string>
+				<string>#0066CC</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Inherited class seperator</string>
+			<string>Function (definition)</string>
 			<key>scope</key>
-			<string>punctuation.separator.inheritance</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>bold</string>
-				<key>foreground</key>
-				<string>#000000</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>punctuation block</string>
-			<key>scope</key>
-			<string>punctuation.separator.variable</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>bold</string>
-				<key>foreground</key>
-				<string>#000000</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>array brackets</string>
-			<key>scope</key>
-			<string>punctuation.section.array</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>bold</string>
-				<key>foreground</key>
-				<string>#000000</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>hash separator</string>
-			<key>scope</key>
-			<string>punctuation.separator.key-value</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>bold</string>
-				<key>foreground</key>
-				<string>#000000</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>() brackets</string>
-			<key>scope</key>
-			<string>punctuation.section.function</string>
+			<string>entity.name.function, keyword.other.name-of-parameter.objc, support.type.exception.python</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#000000</string>
+				<string>#990000</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Method call</string>
+			<string>Function Parameters</string>
+			<key>scope</key>
+			<string>variable.parameter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#AA7700</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Function Call</string>
 			<key>scope</key>
 			<string>meta.function-call</string>
 			<key>settings</key>
@@ -354,44 +224,83 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#000000</string>
+				<string>#990000</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Method call</string>
+			<string>Function Meta Call Arguments</string>
 			<key>scope</key>
-			<string>meta.function-call.python</string>
+			<string>meta.function-call.arguments</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#AA7700</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Library Function</string>
+			<key>scope</key>
+			<string>support.function</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#000000</string>
+				<string>#FF1493</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>hash brackets</string>
+			<string>Library Built-In Functions: define(), etc.</string>
 			<key>scope</key>
-			<string>punctuation.section.scope</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#000000</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Special ruby method</string>
-			<key>scope</key>
-			<string>keyword.other.special-method.ruby</string>
+			<string>support.function.builtin_functions</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string>bold</string>
+				<key>foreground</key>
+				<string>#006699</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Library Control Functions: echo, eval(), isset(), array(), list(), empty(), unset(), etc.</string>
+			<key>scope</key>
+			<string>support.function.construct</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#006699</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Library class</string>
+			<key>scope</key>
+			<string>support.class</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#0066CC</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Library type</string>
+			<key>scope</key>
+			<string>support.type</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#0066CC</string>
 			</dict>
 		</dict>
 		<dict>
@@ -405,41 +314,6 @@
 				<string></string>
 				<key>foreground</key>
 				<string>#AA2C8C</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Support class</string>
-			<key>scope</key>
-			<string>support.class.ruby</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#008080</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>String.regexp</string>
-			<key>scope</key>
-			<string>string.regexp</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#009926</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>String embedded source</string>
-			<key>scope</key>
-			<string>string.quoted source</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#000000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -483,20 +357,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>html tag punctuation</string>
-			<key>scope</key>
-			<string>punctuation.definition.tag</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#000000</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>html tag punctuation</string>
+			<string>tag name</string>
 			<key>scope</key>
 			<string>entity.name.tag</string>
 			<key>settings</key>
@@ -509,7 +370,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>html attribute</string>
+			<string>tag attribute</string>
 			<key>scope</key>
 			<string>entity.other.attribute-name</string>
 			<key>settings</key>
@@ -522,7 +383,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Embedded (PHP)</string>
+			<string>Embedded PHP</string>
 			<key>scope</key>
 			<string>punctuation.section.embedded.begin.php,punctuation.section.embedded.end.php</string>
 			<key>settings</key>
@@ -535,7 +396,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Embedded (PHP) @</string>
+			<string>Embedded PHP @</string>
 			<key>scope</key>
 			<string>keyword.operator.error-control.php</string>
 			<key>settings</key>
@@ -590,6 +451,8 @@
 			<dict>
 				<key>fontStyle</key>
 				<string>bold</string>
+				<key>foreground</key>
+				<string>#000000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -602,7 +465,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#000000</string>
+				<string></string>
 			</dict>
 		</dict>
 		<dict>
@@ -615,7 +478,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#000000</string>
+				<string></string>
 			</dict>
 		</dict>
 		<dict>
@@ -641,14 +504,14 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#000000</string>
+				<string></string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>css font name</string>
 			<key>scope</key>
-			<string>support.constant.font-name</string>
+			<string>support.constant.font-name.css</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -661,20 +524,7 @@
 			<key>name</key>
 			<string>css unit keyword</string>
 			<key>scope</key>
-			<string>keyword.other.unit</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>normal</string>
-				<key>foreground</key>
-				<string>#0066CC</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>pseudo class</string>
-			<key>scope</key>
-			<string>entity.other.attribute-name.pseudo-class</string>
+			<string>keyword.other.unit.css</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -685,9 +535,22 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>pseudo element</string>
+			<string>css pseudo class</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.pseudo-element</string>
+			<string>entity.other.attribute-name.pseudo-class.css</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#0066CC</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>css pseudo element</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name.pseudo-element.css</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -700,7 +563,7 @@
 			<key>name</key>
 			<string>css attribute class</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.class</string>
+			<string>entity.other.attribute-name.class.css</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -713,7 +576,7 @@
 			<key>name</key>
 			<string>css attribute id</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.id</string>
+			<string>entity.other.attribute-name.id.css</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -734,7 +597,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#000000</string>
+				<string></string>
 			</dict>
 		</dict>
 		<dict>
@@ -749,7 +612,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#000000</string>
+				<string></string>
 			</dict>
 		</dict>
 		<dict>
@@ -778,6 +641,8 @@
 				<string>#DDFFDD</string>
 				<key>fontStyle</key>
 				<string></string>
+				<key>foreground</key>
+				<string></string>
 			</dict>
 		</dict>
 		<dict>
@@ -792,67 +657,81 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#000000</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Function Parameters</string>
-			<key>scope</key>
-			<string>variable.parameter</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
-			</dict>
-		</dict>
-
-		<dict>
-			<key>name</key>
-			<string>Library object</string>
-			<key>scope</key>
-			<string>support.function</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
 				<string></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Invalid</string>
+			<key>scope</key>
+			<string>invalid</string>
+			<key>settings</key>
+			<dict>
 				<key>foreground</key>
+				<string>#FFFFFF</string>
+				<key>background</key>
 				<string>#FF1493</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Library class</string>
+			<string>Invalid Deprecated</string>
 			<key>scope</key>
-			<string>support.class</string>
+			<string>invalid.deprecated</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+				<key>background</key>
+				<string>#8000FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup: Heading</string>
+			<key>scope</key>
+			<string>markup.heading</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#0066CC</string>
+				<string>#006699</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Function Meta Call Arguments</string>
+			<string>Markup: Quote</string>
 			<key>scope</key>
-			<string>meta.function-call.arguments</string>
+			<string>markup.quote</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string>italic</string>
+				<key>foreground</key>
+				<string>#000000</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Function Call</string>
+			<string>Markup: List</string>
 			<key>scope</key>
-			<string>meta.function-call</string>
+			<string>markup.list</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
+				<key>foreground</key>
+				<string>#008000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup: Raw</string>
+			<key>scope</key>
+			<string>markup.raw</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#AA7700</string>
 			</dict>
 		</dict>
 	</array>
